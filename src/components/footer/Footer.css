@@ -38,12 +38,18 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
+    row-gap: 10px;
 }
 
 .sns-links {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.sns-links a,
+.sns-links a:visited {
+    border: none;
 }
 
 .linkedin,
@@ -73,6 +79,14 @@
 
 
 @media only screen and (max-width: 960px) {
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+
     .footer-info {
         text-align: center;
         padding: 0;
@@ -81,20 +95,20 @@
 
     .footer-contact {
         font-size: 16px;
-        padding: 100px 0 30px 0;
         text-align: center;
+        padding: 0;
     }
 
     .footer-sns {
         grid-template-columns: 1fr;
         text-align: center;
+        padding: 0;
+        position: unset;
     }
 
-    .sns-links {
-        padding: 0 0 40px 0;
-    }
 
     .design-by {
         grid-row-start: 2;
+        padding: 0;
     }
 }

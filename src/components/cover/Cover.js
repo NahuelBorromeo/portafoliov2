@@ -4,9 +4,14 @@ import Typewriter from 'typewriter-effect';
 import './Cover.css';
 
 export const Cover = () => {
+
+    window.onload = function() {
+        document.querySelector("#vid").play();
+    };
+
     return (
         <div className="cover-container">
-            <video className="video" src={ coverVideo } autoPlay loop muted />
+            <video id="vid" className="video" src={ coverVideo } autoPlay loop muted />
             <h1>Nahuel Borromeo</h1>
             <Typewriter
                 options={{

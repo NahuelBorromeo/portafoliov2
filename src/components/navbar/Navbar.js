@@ -19,19 +19,27 @@ export const Navbar = ({ isScrolling }) => {
     
     const [menuopen, setMenuopen] = useState(false);
 
+    const activarScroll = () => {
+        document.getElementsByTagName("html")[0].style.overflow = "auto";
+    }
+
     const show = () => {
         const menu = document.querySelector('nav ul');
         menu.classList.toggle("show")
         if( menu.classList.contains("show") ){
         setMenuopen(true);
-        }else
+        document.getElementsByTagName("html")[0].style.overflow = "hidden";
+        }else{
             setMenuopen(false);
+            activarScroll();
+        }
     }
     
     const removeShow = () => {
         const menu = document.querySelector('nav ul');
         menu.classList.remove("show")
         setMenuopen(false);
+        activarScroll();
     }
 
     const logo = "<N/>"

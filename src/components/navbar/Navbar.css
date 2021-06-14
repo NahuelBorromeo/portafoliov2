@@ -113,6 +113,7 @@ nav #icon {
         text-align: center;
         flex-direction: column;
         transition: all .5s;
+        padding-bottom: 70px;
     }
 
     nav li {
@@ -121,6 +122,8 @@ nav #icon {
 
     nav a {
         font-size: 20px;
+        display: block;
+        width: 100vw;
     }
 
     a.active, a:hover {
