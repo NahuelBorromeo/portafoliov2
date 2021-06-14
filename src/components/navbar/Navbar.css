@@ -1,0 +1,135 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.scrolling {
+    background-color: rgba(0, 0, 0, 0.815);
+    transition: all 0.5s ease;
+}
+
+.navbar-logo {
+    height: 80px;
+    line-height: 80px;
+    color: #f3f3f3;
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.leng {
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    display: inline-block;
+    position: relative;
+    height: 80px;
+    width: 70px;
+}
+
+.leng img {
+    position: absolute;
+    top: 10px;
+    left: 11px;
+}
+
+
+.navbar-logo button img {
+    display: inline-block;
+}
+
+.navbar-menu {
+    height: 80px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 40px;
+    display: flex;
+    color: #f3f3f3;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navbar a {
+    color: #f3f3f3;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    padding: 7px 10px;
+}
+
+a.active,a:hover {
+    border-bottom: 1px solid #f3f3f3;
+    transition: .5s;
+    cursor: pointer;
+}
+
+nav #icon {
+    color: #f3f3f3;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (max-width: 960px) {
+    .navbar-logo {
+        padding-left: 30px;
+    }
+
+    nav a {
+        font-size: 17px;
+    }
+    
+    nav #icon {
+        display: block;
+    }
+    
+    nav ul {
+        margin-right: 20px;
+        position: fixed;
+        width: 100%;
+        height: calc( 100vh - 80px);
+        background: rgba(0, 0, 0, 0.815);
+        top: -100%;
+        left: 0;
+        text-align: center;
+        flex-direction: column;
+        transition: all .5s;
+    }
+
+    nav li {
+        line-height: 30px;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+    a.active, a:hover {
+        border: none;
+        color: #44CDE1;
+    }
+
+    nav ul.show {
+        top: 80px;
+    }
+
+}
