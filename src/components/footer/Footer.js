@@ -41,7 +41,7 @@ export const Footer = () => {
                                         />
                 </div>
                 <div className="sns-links">
-                    <a href="https://www.linkedin.com/in/nahuel-borromeo-da-costa-8bb72a1b5/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/nahuel-borromeo/" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-linkedin linkedin"></i>
                     </a>
                     <a href="https://github.com/NahuelBorromeo" target="_blank" rel="noopener noreferrer">
