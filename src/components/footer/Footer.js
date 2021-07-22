@@ -47,7 +47,7 @@ export const Footer = () => {
                     <a href="https://github.com/NahuelBorromeo" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-github github"></i>
                     </a>
-                    <a href="https://www.instagram.com/nahueldev_/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/nanocode_/" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-instagram instagram"></i>
                     </a>
                     <a href="mailto:nahuelborromeo@gmail.com" target="_blank" rel="noopener noreferrer">

@@ -16,11 +16,17 @@ function App() {
         setScrollHeight( position );
     };
 
+    const [show, setShow] = useState(false);
+
     useEffect( () => {
         window.addEventListener("scroll", handleScroll);
     }, [ scrollHeight ]);
 
-    
+    useEffect( () => {
+
+        setShow(true);
+
+    }, [])
 
     return <div className="App">
         <Navbar isScrolling={ scrollHeight }/>
@@ -28,8 +34,8 @@ function App() {
         <About />
         <Slider />
         <Info />
-        <Footer />
-    </div>;
+{        show && <Footer />
+}    </div>;
 
 }
 
