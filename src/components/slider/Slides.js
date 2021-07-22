@@ -1,5 +1,4 @@
 import React from 'react';
-import project1 from '../../media/project1.jpg'
 import project5 from '../../media/project5.jpg'
 import project6 from '../../media/project6.jpg'
 import project7 from '../../media/project7.jpg'
@@ -22,18 +21,11 @@ const slidesInfo = [
         desc: "Pokedex App",
         href: "https://nahuelborromeo.github.io/pokedex-app/"
     },
-    
-    {
-        src: project1,
-        alt: "Portfolio v1",
-        desc: " Portfolio v1",
-        href: "https://portfoliov1nahuel.netlify.app"
-    },
 
     {
         src: project5,
-        alt: "Portfolio v2",
-        desc: " Portfolio v2",
+        alt: "Portfolio",
+        desc: " Portfolio",
         href: "https://nahueldeveloper.com"
     },
 
