@@ -24,13 +24,13 @@ export const About = () => {
                 <h3>
                     <FormattedMessage 
                         id="about" 
-                        defaultMessage="About me"
+                        defaultMessage="Let me tell you something about me"
                     />
                 </h3>
                 <p>
                     <FormattedMessage 
                         id="about-me" 
-                        defaultMessage="Nahuel Borromeo"
+                        defaultMessage="I am a Developer from Lima-Perú, specialized in FrontEnd, software engineering student and a self-taught with a passion for technology."
                     />
                 </p>
                 <h3>

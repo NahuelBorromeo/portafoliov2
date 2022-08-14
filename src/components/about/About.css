@@ -2,7 +2,7 @@
     background-color: #f3f3f3;
     color: black;
     display: flex;
-    height: 70vh;
+    height: 100vh;
     padding: 100px 0 100px 0;
 }
 
@@ -64,7 +64,4 @@
         height: 100%;
     }
     
-    .about-img > img {
-
-    }
 }

@@ -18,7 +18,7 @@ export const Slider = () => {
                 </h2>
             </div>
             <Carousel 
-                viewportWidth="70vw" 
+                viewportWidth="50vw" 
                 height="70vh"
                 autoplay={true}
                 autoplaySpeed={2000}

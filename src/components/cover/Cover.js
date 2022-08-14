@@ -15,7 +15,7 @@ export const Cover = () => {
             <h1>Nahuel Borromeo</h1>
             <Typewriter
                 options={{
-                    strings: ['Developer', 'Content Creator','Coder','Entrepeneur'],
+                    strings: ['Developer', 'Content Creator','Coder'],
                     autoStart: true,
                     loop: true,
                     skipAddStyles: true,

@@ -4,6 +4,7 @@
     align-items: center;
     background-color: black;
     padding: 60px 0 60px 0;
+    height: 100vh;
 }
 
 .carousel-title {
@@ -72,17 +73,26 @@
     }
 
     .slide-container {
-        width: 70vw;
+        width: 100vw;
         margin: 0 auto;
     }
-
+    
     .slide-container > img {
         height: 70vh;
     }
-
+    .carousel-slide {
+        width: 70%!important;
+    }
+    .carousel-viewport {
+        width: 100vw!important;
+    }
 }
 
 .iconslide {
     max-height: 20px;
     margin: auto 0;
+}
+
+@media only screen and (max-width: 960px) {
+ 
 }

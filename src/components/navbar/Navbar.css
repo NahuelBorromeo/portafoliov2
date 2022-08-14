@@ -41,6 +41,9 @@
     left: 11px;
 }
 
+.navbar-logo:hover {
+    color: #1086ca;
+}
 
 .navbar-logo button img {
     display: inline-block;
@@ -73,8 +76,12 @@
     padding: 7px 10px;
 }
 
+.navbar a:hover {
+    color: #1086ca;
+}
+
 a.active,a:hover {
-    border-bottom: 1px solid #f3f3f3;
+    border-bottom: 1px solid #1086ca;
     transition: .5s;
     cursor: pointer;
 }
