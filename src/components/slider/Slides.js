@@ -26,7 +26,7 @@ const slidesInfo = [
         src: project5,
         alt: "Portfolio",
         desc: " Portfolio",
-        href: "https://nahueldeveloper.com"
+        href: "https://nahuelborromeo.netlify.app/"
     },
 
     {
