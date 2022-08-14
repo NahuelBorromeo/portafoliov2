@@ -5,19 +5,6 @@ import './About.css';
 
 
 export const About = () => {
-
-
-    const obj = {
-        "hero-1": "batman",
-        "hero-2": "spiderman",
-        "hero-3": "superman",
-        prop: "prop"
-    }
-
-    const first = obj.prop;
-
-
-
     return (
         <div id="about" className="about-container">
             <div className="about-desc">
