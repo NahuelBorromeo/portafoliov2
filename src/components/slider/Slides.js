@@ -1,4 +1,5 @@
 import React from 'react';
+import project4 from '../../media/project4.jpg'
 import project5 from '../../media/project5.jpg'
 import project6 from '../../media/project6.jpg'
 import project7 from '../../media/project7.jpg'
