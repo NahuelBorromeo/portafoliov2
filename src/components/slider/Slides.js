@@ -16,6 +16,13 @@ const slidesInfo = [
     },
     
     {
+        src: project4,
+        alt: "DeliveryApp",
+        desc: "Food Restaurant Delivery",
+        href: "https://food-restaurant-delivery.netlify.app/"
+    },
+    
+    {
         src: project7,
         alt: "PokeApp",
         desc: "Pokedex App",
