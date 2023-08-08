@@ -29,8 +29,11 @@ export const About = () => {
                 <p>-HTML <i className="fab fa-html5"></i></p>
                 <p>-CSS <i className="fab fa-css3-alt"></i></p>
                 <p>-JavaScript <i className="fab fa-js-square"></i></p>
-                <p>-Git <i className="fab fa-git-alt"></i></p>
                 <p>-React <i className="fab fa-react"></i></p>
+                <p>-Context</p>
+                <p>-Redux</p>
+                <p>-Typescript</p>
+                <p>-Git <i className="fab fa-git-alt"></i></p>
             </div>
             <div className="about-img">
                 <img src={about} alt="about" className="aboutimg"/>
